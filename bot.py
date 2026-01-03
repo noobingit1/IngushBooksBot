@@ -1,10 +1,11 @@
+import config
 import telebot
 import json
 import os
 import logging
 import sys 
 
-TOKEN = '8405822529:AAHJlziXurj2NsxKlbjXLQNh7j9VNV8QDoY'
+
 BOOKS_DATABASE_FILE = 'books.json'
 BOOKS_FOLDER = '.'
 
@@ -18,7 +19,7 @@ logging.basicConfig(
     ]
 )
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(config.TOKEN) 
 
 def load_books_data():
     if not os.path.exists(BOOKS_DATABASE_FILE):
