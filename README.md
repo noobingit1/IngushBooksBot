@@ -14,3 +14,7 @@ Telegram-бот "Ингушский читатель" 📚
 
 
   Ссылка на Telegram бот -  https://t.me/Ing_Books_bot
+
+
+https://github.com/user-attachments/assets/3bef3259-b5f4-4f50-8ab2-d92aca2b16b3
+
